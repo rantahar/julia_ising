@@ -91,4 +91,4 @@ for i in 1:measurements
 end
 
 println("Temperature, Lattice size, Energy, Std of Energy, Magnetization, Std of Magnetization ")
-println(Temperature, " ", L, " ", mean(E), " ", std(E), " ", mean(M), " ", std(M))
+println(Temperature, ", ", L, ", ", mean(E), ", ", std(E), ", ", mean(M), ", ", std(M))
